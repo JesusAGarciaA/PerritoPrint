@@ -9,6 +9,11 @@ body {
     background-color: #92c27a;
 }
 
+img {
+    display: block;
+    width: 200px
+}
+
 header h1 {
     color: #57825b;
     font-family: Matemasie, sans-serif;
