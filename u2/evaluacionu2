@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ev U2 - Curriculum Vitae</title>
+    <!--Tipografía-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css2/evaluacionu2.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1>Juan Pérez</h1>
+            <p>Desarrollador Web Full Stack</p>
+        </div>
+    </header>
+    <main class="container py-5">
+        <section id="foto-perfil" class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy un desarrollador web apasionado por la tecnología y las soluciones innovadoras. Mi objetivo profesional es seguir creciendo en el campo del desarrollo web, explorando nuevas tecnologías y creando aplicaciones innovadoras.
+                </p>
+            </div>
+        </section>
+
+        <!-- Educación -->
+        <section id="educacion" class="my-5">
+            <h2><i class="bi bi-book"></i> Educación</h2>
+            <ul>
+                <li><strong>Ingeniería en software</strong> - Instituto Tecnológico de Sonora (2015 - 2019)</li>
+                <li><strong>Bootcamp de Desarrollo Web</strong> - Universidad de California en Los Ángeles (2020)</li>
+            </ul>
+        </section>
+        <section id="experiencia" class="my-5">
+            <h2><i class="bi bi-briefcase"></i> Experiencia Profesional</h2>
+            <ul>
+                <li><strong>Desarrollador Front-End</strong> - ExpertSoft (2021 - Actualidad)</li>
+                <li><strong>Practicante de Desarrollo Web</strong> - OpenAI (2019 - 2020)</li>
+            </ul>
+        </section>
+        <section id="habilidades" class="my-5">
+            <h2><i class="bi bi-tools"></i> Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Node.js</li>
+                        <li>Git, GitHub</li>
+                        <li>SQL, MongoDB</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Comunicación efectiva</li>
+                        <li>Gestión del tiempo</li>
+                        <li>Adaptabilidad</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="my-5">
+            <h2><i class="bi bi-envelope"></i> Contacto</h2>
+            <p>Puedes contactarme a través del siguiente formulario:</p>
+            <form action="mailto:juanperez@ejemplo.com" method="POST" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>Conéctame en mis redes sociales:</p>
+        <div class="social-icons">
+            <a href="https://githubfalso.com/juanperez" class="text-white me-3"><i class="bi bi-github"></i> GitHub</a>
+            <a href="https://www.linkedinfalso.com/in/juanperez" class="text-white me-3"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="mailto:juanperez@ejemplo.com" class="text-white"><i class="bi bi-envelope"></i> Email</a>
+        </div>
+        <p>Teléfono: (555) 123-456-7890</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
