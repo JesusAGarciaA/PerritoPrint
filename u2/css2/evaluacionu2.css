@@ -1,15 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #172821;
 }
 
 header h1 {
+    color: #92c27a;
     font-family: Matemasie, sans-serif;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
+    color: #92c27a;
     font-family: Quicksand, sans-serif;
     font-size: 1.25rem;
 }
@@ -31,6 +33,7 @@ ul {
 }
 
 ul li {
+    color: #92c27a;
     font-family: Quicksand, sans-serif;
     margin-bottom: 0.5rem;
 }
