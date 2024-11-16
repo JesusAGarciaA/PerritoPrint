@@ -1,0 +1,25 @@
+
+
+/*LAYOUT*/
+.cabezuko { width: 100%;
+            ;}
+
+.bar
+
+.logo {text-align: center;
+       font-size: 3em;
+       padding: 8px 0px;}
+
+.menu {width: 100%;
+       min-height: 1px;}
+
+.links {width: 100%;
+        min-height: 40%;
+        background-color: whitesmoke;
+        padding: 0px 16px;
+        display: flex;}
+
+.item {width: 25%;
+       height: 30px;
+       text-align: center;
+       line-height: 2.5;}
