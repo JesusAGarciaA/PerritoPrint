@@ -6,12 +6,11 @@
 
 body {
     font-family: Quicksand, sans-serif;
-    color: #92c27a;
-    background-color: #172821;
+    background-color: #92c27a;
 }
 
 header h1 {
-    color: #92c27a;
+    color: #57825b;
     font-family: Matemasie, sans-serif;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
@@ -24,7 +23,7 @@ div p {
 }
 
 header p {
-    color: #92c27a;
+    color: #172821;
     font-family: Quicksand, sans-serif;
     font-size: 1.25rem;
 }
