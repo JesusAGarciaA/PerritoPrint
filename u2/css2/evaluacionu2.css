@@ -1,5 +1,12 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0; 
+    padding: 0;
+    }
+
 body {
     font-family: Quicksand, sans-serif;
+    color: #92c27a;
     background-color: #172821;
 }
 
