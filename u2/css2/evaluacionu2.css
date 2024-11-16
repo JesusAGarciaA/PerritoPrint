@@ -17,7 +17,7 @@ header h1 {
 }
 
 div p {
-    color: #92c27a;
+    color: #172821;
     font-family: Quicksand, sans-serif;
     font-size: 1.25rem;
 }
@@ -46,7 +46,7 @@ ul {
 }
 
 ul li {
-    color: #92c27a;
+    color: #172821;
     font-family: Quicksand, sans-serif;
     margin-bottom: 0.5rem;
 }
@@ -61,6 +61,7 @@ footer .social-icons {
 }
 
 footer p {
+    color: #172821;
     margin: 0;
 }
 
