@@ -12,7 +12,7 @@ body {
 img {
     display: block;
     width: 350px
-    border-radius: 15%;
+    radius: 15%;
     border: solid 8px white;
 }
 
