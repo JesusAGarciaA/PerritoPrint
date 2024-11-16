@@ -16,6 +16,10 @@ img {
     border: solid 8px white;
 }
 
+header {
+    margin-bottom: 20px;
+}
+
 header h1 {
     color: #57825b;
     font-family: Matemasie, sans-serif;
