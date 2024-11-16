@@ -17,6 +17,12 @@ header h1 {
     margin-bottom: 0.5rem;
 }
 
+div p {
+    color: #92c27a;
+    font-family: Quicksand, sans-serif;
+    font-size: 1.25rem;
+}
+
 header p {
     color: #92c27a;
     font-family: Quicksand, sans-serif;
