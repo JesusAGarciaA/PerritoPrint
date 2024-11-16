@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer .social-icons {
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto button {
+    width: 100%;
+}
